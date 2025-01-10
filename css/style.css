@@ -92,7 +92,7 @@ nav button {
     width: 400px;
 }
 
-/* vision design */
+/* vision design start  */
 .vision {
     margin: 40px 0;
 }
@@ -105,6 +105,7 @@ nav button {
 .vision-box {
     display: flex;
     gap: 10px;
+    margin-top: 15px;
 }
 .vision-box .card {
     padding: 20px 15px;
@@ -160,3 +161,89 @@ nav button {
     background-color: #FFC239;
     border: none;
 }
+/* vision desing end */
+
+/* news design start  */
+
+.news {
+    margin: 50px 0;
+}
+.news h1 {
+    margin: 24px 0;
+}
+.news p {
+    margin: 12px 0;
+}
+.news-box {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 24px 0;
+    padding: 30px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+
+}
+.news-box .news-img {
+    flex-basis: 38%;
+   
+}
+.news-box .news-img img {
+    width: 100%;
+    height: 350px;
+
+    /* object-fit: cover; */
+    border-radius: 24px;
+    
+}
+.news-box .news-content {
+    flex-basis: 61%;
+}
+.news-content .news-content-title {
+    margin-bottom: 12px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #0E0E0ECC;
+    opacity: .8;
+
+}
+.news-box2 {
+    margin: 12px 0;
+}
+.news-box2 img {
+    width: 140px;
+}
+.news-box2 span {
+    margin: 12px 12px 0 0;
+    
+}
+.news-box2 p {
+    color: #0E0E0EB3;
+    opacity: .7;
+}
+.news-box2 .news-desc {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 12px 0;
+
+}
+.news-box2 .news-btn {
+    background-color: #006A50;
+    margin: 25px 0;
+    padding: 13px 26px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+}
+
+.reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* news design end  */
