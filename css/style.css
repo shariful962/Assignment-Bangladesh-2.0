@@ -100,7 +100,7 @@ nav button:hover {
     transition: .4s;
 }
 .banner-btn:hover {
-    background-color:#3baf92;
+    background-color: #183a31;
 }
 .banner-img {
     width: 500px;
@@ -169,6 +169,9 @@ nav button:hover {
     flex-basis: 32%;
     padding: 20px 15px;
     text-align: left;
+}
+.vision-box .card img {
+    width: 60px;
 }
 .vision-box .card h3 {
     font-size: 20px;
@@ -349,7 +352,7 @@ nav button:hover {
     transition: .4s;
 }
 .news-box2 .news-btn:hover{
-    background-color: #010c09;
+    background-color: #183a31;
 }
 .reverse {
     display: flex;
@@ -360,7 +363,7 @@ nav button:hover {
 
 /* donate design start */
 .donate {
-    margin: 40px 0;
+    margin: 50px 0;
 }
 .donate h1{
     margin: 24px 0;
@@ -386,6 +389,9 @@ nav button:hover {
 	outline: none;
 	border-radius: 16px;
     text-align: center
+}
+.amount .input1 input:hover {
+    background-color: #c5ad5c;
 }
 .amount .input1 input:nth-child(2){
     background-color: #C6E4D6;
@@ -416,14 +422,18 @@ nav button:hover {
     border-radius: 8px;
     padding: 18px 36px;
     border: none;
-   
+    cursor: pointer;
+    transition: .4s ease;
 
+}
+.donate-btn:hover {
+    background-color: #183a31;
 }
 /* donate design end  */
 
 /* newsletter design start  */
 .newsletter {
-    margin: 40px 0;
+    margin: 50px 0;
     width: 100%;
     height: 380px;
     background-color: #C6E4D6;
@@ -455,7 +465,7 @@ nav button:hover {
 
 }
 .subscription {
-    margin: 30px 0 0 24px;
+    margin: 35px 0 0 30px;
     display: flex;
 }
 .subscription input {
@@ -477,6 +487,10 @@ nav button:hover {
     font-weight: 600;
     padding: 14px 28px;
     border: none;
+    cursor: pointer;
+}
+.subscription .sub-btn:hover{
+    background-color: #183a31;
 }
 .promise {
     font-size: 16px;
@@ -485,7 +499,7 @@ nav button:hover {
     display: block;
     color: #0E0E0EB3;
     opacity: .7;
-    margin: 20px 0; 
+    margin: 25px 0; 
 }
 /* newsletter design end  */
 
