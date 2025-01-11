@@ -151,7 +151,7 @@ nav button:hover {
 
 /* vision design start  */
 .vision {
-    margin: 40px 0;
+    margin: 50px 0;
 }
 .vision h1 {
     margin: 24px 0;
@@ -161,10 +161,12 @@ nav button:hover {
 }
 .vision-box {
     display: flex;
-    gap: 10px;
-    margin-top: 15px;
+    justify-content: space-between;
+    margin: 18px 0;
+   
 }
 .vision-box .card {
+    flex-basis: 32%;
     padding: 20px 15px;
     text-align: left;
 }
@@ -180,6 +182,7 @@ nav button:hover {
     font-weight: 400;
     margin: 12px 0;
     color: #0E0E0ECC;
+    line-height: 1.4;
     opacity: .7;
 }
 
@@ -189,9 +192,14 @@ nav button:hover {
 }
 .vision-card1 button {
     margin: 24px 0;
-    padding: 11px 20px;
+    padding: 14px 25px;
     background-color: #5490F5;
     border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+.vision-card1 button:hover {
+    background-color: #3a61a5;
 }
 .vision-card2{
     padding: 10px;
@@ -201,9 +209,14 @@ nav button:hover {
 }
 .vision-card2 button {
     margin: 24px 0;
-    padding: 11px 20px;
+    padding: 14px 25px;
     background-color: #09A15C;
+    cursor: pointer;
     border: none;
+    transition: .4s;
+}
+.vision-card2 button:hover {
+    background-color: #0c6b40;
 }
 .vision-card3{
     padding: 10px;
@@ -214,9 +227,14 @@ nav button:hover {
 
 .vision-card3 button {
     margin: 24px 0;
-    padding: 11px 20px;
+    padding: 14px 25px;
     background-color: #FFC239;
+    cursor: pointer;
     border: none;
+    transition: .4s;
+}
+.vision-card3 button:hover {
+    background-color: #866822;;
 }
 /* vision desing end */
 
