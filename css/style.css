@@ -109,6 +109,46 @@ nav button:hover {
     width: 100%;
 }
 
+/* pillar bangladesh desin start  */
+.pillarBd {
+    margin: 50px 0;
+}
+.pillar-box {
+    margin: 18px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.pillar-card {
+    flex-basis: 24%;
+    background-color: #fff;
+    padding: 10px 18px;
+    border-radius: 16px;
+    border: 1px solid rgba(14,14,14,0.15);
+    transition: .4s ease;
+}
+.pillar-card:hover {
+    border: none;
+}
+.pillar-card img {
+    width: 60px;
+}
+.pillar-card h3 {
+    margin: 12px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E0E0ECC;
+    opacity: .80;
+}
+.pillar-card p {
+    margin: 12px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0ECC;
+    opacity: .70;
+    line-height: 1.4;
+}
+/* pillar bangladesh desin end  */
+
 /* vision design start  */
 .vision {
     margin: 40px 0;
