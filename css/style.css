@@ -238,6 +238,35 @@ nav button:hover {
 }
 /* vision desing end */
 
+/* Quote design */
+.quote {
+    width: 100%;
+    height: 250px;
+    padding: 20px 35px;
+    background: #FFFFFF url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top 10% left 2%;
+    border-radius: 16px;
+    border: 1px solid rgba(14,14,14,0.15);
+}
+.quote-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0ECC;
+    opacity: .8;
+    line-height: 1.4;
+}
+
+.quote-content p strong{
+    display: block;
+    margin: 18px 0 0 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0E0ECC;
+    opacity: .8;
+    
+} 
+
 /* news design start  */
 
 .news {
